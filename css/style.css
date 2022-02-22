@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#textcenter {
+    align-items: start;
+}
+
+#textstart {
+    align-items: center;
+    text-align: center;
+}
+
+#textstart p {
+    margin: 0% 5%;
+}
+
+@media only screen and (min-width:500px) and (max-width:770px) {
+    #fig {
+        display: none;
+    }
+
+    #textcenter {
+        align-items: center;
+        text-align: center;
+    }
+
+    #textstart {
+        align-items: start;
+        text-align: start;
+
+    }
+
+    #textstart p {
+        margin: 0%;
+    }
+
+
+}
+
+@media only screen and (max-width:500px) {
+    .hide {
+        display: none;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0% auto;
+    }
+
+    #textcenter {
+        align-items: center;
+    }
+
+    #textstart {
+        align-items: start;
+        text-align: start;
+
+    }
+
+    #textstart p {
+        margin: 0%;
+    }
+
+    #fig {
+        display: none;
+    }
+}
